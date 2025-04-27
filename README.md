@@ -1,4 +1,8 @@
 
+NAME: KARTHIKA G
+
+REF NO: 212224050017
+
 # EX-01-Datatypes-Operators
 ## AIM:
 Write a C program to read 3 characters one by one and print the characters in a reverse order.
@@ -10,9 +14,19 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
-
+```
+#include <stdio.h>
+int main()
+{
+    char a,b,c;
+    scanf("%c%c%c",&a,&b,&c);
+    printf("The reverse of %c%c%c is %c%c%c",a,b,c, c,b,a);
+    return 0;
+}
+```
 ## OUTPUT:
 
+![Screenshot 2025-04-27 174614](https://github.com/user-attachments/assets/2c5e6f5d-d693-4f71-80c7-d2b46ffbc547)
 
 
 
@@ -46,10 +60,30 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
-
+```
+#include <stdio.h>
+int main()  
+{
+    int n;
+    scanf("%d",&n);
+    if(n>0)
+    {
+        printf("number is positive");
+    }
+    else if(n==0)
+    {
+        printf("number is 0");
+    }
+    else
+    {
+        printf("number is negative");
+    }
+}
+```
 # OUTPUT:
 
 
+![Screenshot 2025-04-27 180542](https://github.com/user-attachments/assets/3e1e2485-55dd-4f6e-8976-fd1379c6c6d1)
 
 
 
@@ -111,9 +145,21 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
-
+```
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    if(n==1)
+    {
+        printf("TRUE");
+    }
+}
+```
 ## OUTPUT:
 
+![Screenshot 2025-04-27 180054](https://github.com/user-attachments/assets/d2af23d7-d149-4a68-b15f-be1166c51e8c)
 
 
 
